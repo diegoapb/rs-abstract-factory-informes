@@ -8,6 +8,7 @@ from informes.abstractos import FabricaInformes
 from informes.familias.entrada import FabricaEntrada
 from informes.familias.mixta import FabricaMixta
 from informes.familias.salida import FabricaSalida
+from informes.pedidos import FabricaPedidos
 
 # CATEGORÍAS: prefijo del nombre -> fábrica de esa familia.
 FABRICAS = {
@@ -20,4 +21,5 @@ FABRICAS = {
 TIPOS = {
     "FAC": (FabricaInformes, "crear_factura"),
     "COM": (FabricaInformes, "crear_compra"),
+    "PED": (FabricaPedidos, "crear_pedido"),
 }

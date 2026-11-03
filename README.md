@@ -25,6 +25,6 @@ python3 -m unittest discover -v
 
 | Prefijo | Categoría | Tipos |
 |---|---|---|
-| `ENT` | ENTRADA | `FAC`, `COM` |
+| `ENT` | ENTRADA | `FAC`, `COM`, `PED` |
 | `SAL` | SALIDA | `FAC`, `COM` |
 | `MIX` | MIXTA | `FAC`, `COM` |

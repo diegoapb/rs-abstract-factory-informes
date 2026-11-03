@@ -10,6 +10,8 @@ INFORMES = [
     "SAL_COM_001.txt",
     "MIX_FAC_001.txt",
     "MIX_COM_001.txt",
+    "ENT_PED_001.txt",
+    "SAL_PED_001.txt",
     "informe_sin_formato.txt",
 ]
 
