@@ -20,3 +20,11 @@ python3 main.py
 ```bash
 python3 -m unittest discover -v
 ```
+
+## Categorías y tipos
+
+| Prefijo | Categoría | Tipos |
+|---|---|---|
+| `ENT` | ENTRADA | `FAC`, `COM` |
+| `SAL` | SALIDA | `FAC`, `COM` |
+| `MIX` | MIXTA | `FAC`, `COM` |

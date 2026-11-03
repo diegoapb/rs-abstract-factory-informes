@@ -6,12 +6,14 @@ Para añadir una categoría basta con registrar aquí su fábrica.
 
 from informes.abstractos import FabricaInformes
 from informes.familias.entrada import FabricaEntrada
+from informes.familias.mixta import FabricaMixta
 from informes.familias.salida import FabricaSalida
 
 # CATEGORÍAS: prefijo del nombre -> fábrica de esa familia.
 FABRICAS = {
     "ENT": FabricaEntrada(),
     "SAL": FabricaSalida(),
+    "MIX": FabricaMixta(),
 }
 
 # TIPOS: código del nombre -> (contrato que debe cumplir la fábrica, método que lo crea).
